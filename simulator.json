@@ -1,0 +1,74 @@
+{
+  "deviceTypes": [
+    {
+      "id": "Node4Project",
+      "running": true,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": 20,
+            "every": "minute"
+          },
+          "json": "{\n  \"humidity\": random(0, 100),\n  \"temperature\":random(20,35),\n  \"wind\": random(2,25)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "21250315",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "Node4Assignment",
+      "running": false,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": 20,
+            "every": "minute"
+          },
+          "json": "{\n  \"Humidity\": random(0, 200),\n  \"Temperature\": random(0, 500),\n  \"Pulse\": random(0, 150),\n  \"Performance\": random(0, 100)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "2",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "nodeMCU",
+      "running": false,
+      "events": [
+        {
+          "id": "event_1",
+          "frequency": {
+            "repeat": "30",
+            "every": "minute"
+          },
+          "json": "{\n  \"Pulse\": random(0, 150),\n  \"temp\":random(65,110),\n  \"heartrate\": random(0,100)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "1234",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-nwi5tl-ay4n69e1j8"
+}
