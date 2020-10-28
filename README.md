@@ -6,3 +6,4 @@ The file names included and their nature is given below
 2. flows.json :: NodeRed flow
 3. Simulator.json :: IoT Simulator Particulars
 4. Video :: YouTube Link of the Project Demonstration Video
+5. Project Document :: Project Report
